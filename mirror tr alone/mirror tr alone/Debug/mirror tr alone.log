@@ -1,0 +1,3 @@
+﻿  mirror tr alone.cpp
+O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(104,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  mirror tr alone.vcxproj -> O:\vs projects\mirror tr alone\Debug\mirror tr alone.exe
