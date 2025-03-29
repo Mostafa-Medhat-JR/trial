@@ -1,6 +1,5 @@
 #include "piece.h"
 
-
 piece::~piece()
 {
 }
@@ -24,22 +23,25 @@ piece::piece(string t, int orie, int pl, pair<int, int>pos)
 
 			else if (this->orientation == 1) {
 
-				this->tx.loadFromFile("pieces pics/deflector blue o=1.jpg");
+				this->tx.loadFromFile("pieces pics/deflector blue.jpg");
 				this->p.setTexture(tx);
+				this->p.setRotation(-90);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
 			}
 
 			else if (this->orientation == 2) {
 
-				this->tx.loadFromFile("pieces pics/deflector blue o=2.jpg");
+				this->tx.loadFromFile("pieces pics/deflector blue.jpg");
 				this->p.setTexture(tx);
+				this->p.setRotation(180);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
 			}
 
 			else if (this->orientation == 3) {
 
-				this->tx.loadFromFile("pieces pics/deflector blue o= 3.jpg");
+				this->tx.loadFromFile("pieces pics/deflector blue.jpg");
 				this->p.setTexture(tx);
+				this->p.setRotation(90);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
 			}
 		}
@@ -55,23 +57,26 @@ piece::piece(string t, int orie, int pl, pair<int, int>pos)
 
 			else if (this->orientation == 1) {
 
-				this->tx.loadFromFile("pieces pics/defender blue o=1.jpg");
+				this->tx.loadFromFile("pieces pics/defender blue.jpg");
 				this->p.setTexture(tx);
+				this->p.setRotation(-90);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
 
 			}
 
 			else if (this->orientation == 2) {
 
-				this->tx.loadFromFile("pieces pics/defender blue o=2.jpg");
+				this->tx.loadFromFile("pieces pics/defender blue.jpg");
 				this->p.setTexture(tx);
+				this->p.setRotation(180);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
 
 			}
 			else if (this->orientation == 3) {
 
-				this->tx.loadFromFile("pieces pics/defender blue o=3.jpg");
+				this->tx.loadFromFile("pieces pics/defender blue.jpg");
 				this->p.setTexture(tx);
+				this->p.setRotation(90);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
 			}
 		}
@@ -87,8 +92,9 @@ piece::piece(string t, int orie, int pl, pair<int, int>pos)
 			}
 
 			else if (this->orientation == 1) {
-				this->tx.loadFromFile("pieces pics/switch blue o= 1.jpg");
+				this->tx.loadFromFile("pieces pics/switch blue.jpg");
 				this->p.setTexture(tx);
+				this->p.setRotation(90);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
 			}
 
@@ -102,6 +108,15 @@ piece::piece(string t, int orie, int pl, pair<int, int>pos)
 				this->p.setTexture(tx);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
 		}
+
+		else if (this->type == "laser") {
+			this->tx.loadFromFile("pieces pics/blue laser.jpg");
+			this->p.setTexture(tx);
+			this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
+
+		}
+
+		
 
 	}
 
@@ -120,22 +135,25 @@ piece::piece(string t, int orie, int pl, pair<int, int>pos)
 
 			else if (this->orientation == 1) {
 
-				this->tx.loadFromFile("pieces pics/deflector red o=1.jpg");
+				this->tx.loadFromFile("pieces pics/deflector red.jpg");
 				this->p.setTexture(tx);
+				this->p.setRotation(-90);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
 			}
 
 			else if (this->orientation == 2) {
 
-				this->tx.loadFromFile("pieces pics/deflector red o=2.jpg");
+				this->tx.loadFromFile("pieces pics/deflector red.jpg");
 				this->p.setTexture(tx);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
+				this->p.setRotation(180);
 			}
 
 			else if (this->orientation == 3) {
 
-				this->tx.loadFromFile("pieces pics/deflector red o=  3.jpg");
+				this->tx.loadFromFile("pieces pics/deflector red.jpg");
 				this->p.setTexture(tx);
+				this->p.setRotation(90);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
 			}
 
@@ -151,26 +169,31 @@ piece::piece(string t, int orie, int pl, pair<int, int>pos)
 				this->tx.loadFromFile("pieces pics/defender red.jpg");
 				this->p.setTexture(tx);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
+
 			}
 
 			else if (this->orientation == 1) {
 
-				this->tx.loadFromFile("pieces pics/defender red o=1.jpg");
+				this->tx.loadFromFile("pieces pics/defender red.jpg");
 				this->p.setTexture(tx);
+				this->p.setRotation(-90);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
+
 			}
 
 			else if (this->orientation == 2) {
 
-				this->tx.loadFromFile("pieces pics/defender red o=2.jpg");
+				this->tx.loadFromFile("pieces pics/defender red.jpg");
 				this->p.setTexture(tx);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
+				this->p.setRotation(180);
 			}
 
 			else if (this->orientation == 3) {
 
-				this->tx.loadFromFile("pieces pics/defender red o=3.jpg");
+				this->tx.loadFromFile("pieces pics/defender red.jpg");
 				this->p.setTexture(tx);
+				this->p.setRotation(90);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
 			}
 
@@ -189,8 +212,9 @@ piece::piece(string t, int orie, int pl, pair<int, int>pos)
 
 			else if (this->orientation == 1) {
 
-				this->tx.loadFromFile("pieces pics/switch red o= 1.jpg");
+				this->tx.loadFromFile("pieces pics/switch red.jpg");
 				this->p.setTexture(tx);
+				this->p.setRotation(90);
 				this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
 			}
 
@@ -204,6 +228,16 @@ piece::piece(string t, int orie, int pl, pair<int, int>pos)
 			this->p.setTexture(tx);
 			this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
 		}
+
+		else if (this->type == "laser") {
+
+			this->tx.loadFromFile("pieces pics/Red laser.jpg");
+			this->p.setTexture(tx);
+			this->p.setOrigin(this->p.getLocalBounds().width / 2, this->p.getLocalBounds().height / 2);
+			this->p.setRotation(180);
+		}
+
+
 
 
 	}

@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "mirror tr alone\\mirror tr alone.cpp",
               "ToolTip": "O:\\vs projects\\mirror tr alone\\mirror tr alone\\mirror tr alone.cpp",
               "RelativeToolTip": "mirror tr alone\\mirror tr alone.cpp",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAAADUBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADABAAAAAAAAAAAuwF8BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-17T21:35:57.562Z",
               "EditorCaption": ""
@@ -49,7 +49,7 @@
               "RelativeDocumentMoniker": "mirror tr alone\\piece.cpp",
               "ToolTip": "O:\\vs projects\\mirror tr alone\\mirror tr alone\\piece.cpp",
               "RelativeToolTip": "mirror tr alone\\piece.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-14T11:27:40.557Z",
               "EditorCaption": ""
@@ -62,10 +62,9 @@
               "RelativeDocumentMoniker": "mirror tr alone\\piece.h",
               "ToolTip": "O:\\vs projects\\mirror tr alone\\mirror tr alone\\piece.h",
               "RelativeToolTip": "mirror tr alone\\piece.h",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-14T11:05:20.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T11:05:20.555Z"
             }
           ]
         }
