@@ -28,7 +28,7 @@ O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(309,28): warn
 O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(309,28): warning C4244:         [
 O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(309,28): warning C4244:             T=float
 O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(309,28): warning C4244:         ]
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(508,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(509,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(512,1): warning C4715: 'getCellIndex': not all control paths return a value
+O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(512,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(513,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(516,1): warning C4715: 'getCellIndex': not all control paths return a value
   mirror tr alone.vcxproj -> O:\vs projects\mirror tr alone\Debug\mirror tr alone.exe

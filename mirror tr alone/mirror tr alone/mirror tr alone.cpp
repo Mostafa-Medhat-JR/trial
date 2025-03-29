@@ -51,13 +51,13 @@ cell table[Rows][Columns];
 
 //
 //blue team deflector
-piece bdeflector1(defl, o3, p1, k);
+piece bdeflector1(defl, o0, p1, k);
 piece bdeflector2(defl, o0, p1, k);
-piece bdeflector3(defl, o3, p1, k);
-piece bdeflector4(defl, o3, p1, k);
+piece bdeflector3(defl, o0, p1, k);
+piece bdeflector4(defl, o0, p1, k);
 piece bdeflector5(defl, o3, p1, k);
-piece bdeflector6(defl, o2, p1, k);
-piece bdeflector7(defl, o2, p1, k);
+piece bdeflector6(defl, o1, p1, k);
+piece bdeflector7(defl, o1, p1, k);
 
 //blue team defender
 piece bdefender1(defen, o0, p1, k);
@@ -74,12 +74,12 @@ piece bking(kin, o0, p1, k);
 piece blaser(las, o0, p1, k);
 
 //red team deflector
-piece rdeflector1(defl, o3, p2, k);
-piece rdeflector2(defl, o0, p2, k);
-piece rdeflector3(defl, o3, p2, k);
-piece rdeflector4(defl, o3, p2, k);
+piece rdeflector1(defl, o2, p2, k);
+piece rdeflector2(defl, o1, p2, k);
+piece rdeflector3(defl, o2, p2, k);
+piece rdeflector4(defl, o2, p2, k);
 piece rdeflector5(defl, o3, p2, k);
-piece rdeflector6(defl, o2, p2, k);
+piece rdeflector6(defl, o3, p2, k);
 piece rdeflector7(defl, o2, p2, k);
 
 //red team defender
@@ -97,22 +97,22 @@ piece rking(kin, o0, p2, k);
 piece rlaser(las, o0, p2, k);
 
 //colliders for the deflectors of the blue team
-RectangleShape bdcollider1(Vector2f(3, 70.5));
-RectangleShape bdcollider2(Vector2f(3, 70.5));
-RectangleShape bdcollider3(Vector2f(3, 70.5));
-RectangleShape bdcollider4(Vector2f(3, 70.5));
-RectangleShape bdcollider5(Vector2f(3, 70.5));
-RectangleShape bdcollider6(Vector2f(3, 70.5));
-RectangleShape bdcollider7(Vector2f(3, 70.5));
+RectangleShape bdcollider1(Vector2f(4, 70.5));
+RectangleShape bdcollider2(Vector2f(4, 70.5));
+RectangleShape bdcollider3(Vector2f(4, 70.5));
+RectangleShape bdcollider4(Vector2f(4, 70.5));
+RectangleShape bdcollider5(Vector2f(4, 70.5));
+RectangleShape bdcollider6(Vector2f(4, 70.5));
+RectangleShape bdcollider7(Vector2f(4, 70.5));
 
 //colliders for the deflectors of the red team
-RectangleShape rdcollider1(Vector2f(3,70.5));
-RectangleShape rdcollider2(Vector2f(3, 70.5));
-RectangleShape rdcollider3(Vector2f(3,70.5));
-RectangleShape rdcollider4(Vector2f(3, 70.5));
-RectangleShape rdcollider5(Vector2f(3, 70.5));
-RectangleShape rdcollider6(Vector2f(3, 70.5));
-RectangleShape rdcollider7(Vector2f(3, 70.5));
+RectangleShape rdcollider1(Vector2f(4,70.5));
+RectangleShape rdcollider2(Vector2f(4, 70.5));
+RectangleShape rdcollider3(Vector2f(4,70.5));
+RectangleShape rdcollider4(Vector2f(4, 70.5));
+RectangleShape rdcollider5(Vector2f(4, 70.5));
+RectangleShape rdcollider6(Vector2f(4, 70.5));
+RectangleShape rdcollider7(Vector2f(4, 70.5));
 
 //colliders for the switch of the blue team
 RectangleShape bscollider1(Vector2f(5, 70.5));
@@ -359,26 +359,30 @@ bdefender1.p.setPosition(grid[7][3].getPosition());
 bdefender2.p.setPosition(grid[7][5].getPosition());
 bswitch1.p.setPosition(grid[4][4].getPosition());
 bswitch2.p.setPosition(grid[4][5].getPosition());
-bdeflector1.p.setPosition(grid[7][2].getPosition());
+
+bdeflector1.p.setPosition(grid[4][2].getPosition());
 bdeflector2.p.setPosition(grid[2][3].getPosition());
-bdeflector3.p.setPosition(grid[3][2].getPosition());
-bdeflector4.p.setPosition(grid[4][2].getPosition());
-bdeflector5.p.setPosition(grid[3][9].getPosition());
+bdeflector3.p.setPosition(grid[7][2].getPosition());
+bdeflector4.p.setPosition(grid[3][9].getPosition());
+bdeflector5.p.setPosition(grid[6][7].getPosition());
 bdeflector6.p.setPosition(grid[4][9].getPosition());
-bdeflector7.p.setPosition(grid[6][7].getPosition());
+bdeflector7.p.setPosition(grid[3][2].getPosition());
 
 rlaser.p.setPosition(grid[0][0].getPosition());
 rking.p.setPosition(grid[0][5].getPosition());
+
 rdefender1.p.setPosition(grid[0][4].getPosition());
 rdefender2.p.setPosition(grid[0][6].getPosition());
+
 rswitch1.p.setPosition(grid[3][5].getPosition());
 rswitch2.p.setPosition(grid[3][4].getPosition());
-rdeflector1.p.setPosition(grid[3][0].getPosition());
-rdeflector2.p.setPosition(grid[4][0].getPosition());
-rdeflector3.p.setPosition(grid[1][2].getPosition());
-rdeflector4.p.setPosition(grid[0][7].getPosition());
-rdeflector5.p.setPosition(grid[3][7].getPosition());
-rdeflector6.p.setPosition(grid[4][7].getPosition());
+
+rdeflector1.p.setPosition(grid[0][7].getPosition());
+rdeflector2.p.setPosition(grid[2][2].getPosition());
+rdeflector3.p.setPosition(grid[4][0].getPosition());
+rdeflector4.p.setPosition(grid[3][7].getPosition());
+rdeflector5.p.setPosition(grid[4][7].getPosition());
+rdeflector6.p.setPosition(grid[3][0].getPosition());
 rdeflector7.p.setPosition(grid[5][6].getPosition());
 
 }
@@ -412,13 +416,13 @@ void colliderdrawer() {
 
 void setorigincollider() {
 
-	bdcollider1.setOrigin((bdcollider1.getLocalBounds().width / 2)-5, bdcollider1.getLocalBounds().height / 2);
+	bdcollider1.setOrigin((bdcollider1.getLocalBounds().width / 2)+5, bdcollider1.getLocalBounds().height / 2);
     bdcollider2.setOrigin((bdcollider2.getLocalBounds().width / 2)+5, bdcollider2.getLocalBounds().height / 2);
-	bdcollider3.setOrigin((bdcollider3.getLocalBounds().width / 2)-5, bdcollider3.getLocalBounds().height / 2);
-	bdcollider4.setOrigin((bdcollider4.getLocalBounds().width / 2)-5, bdcollider4.getLocalBounds().height / 2);
+	bdcollider3.setOrigin((bdcollider3.getLocalBounds().width / 2)+5, bdcollider3.getLocalBounds().height / 2);
+	bdcollider4.setOrigin((bdcollider4.getLocalBounds().width / 2)+5, bdcollider4.getLocalBounds().height / 2);
 	bdcollider5.setOrigin((bdcollider5.getLocalBounds().width / 2)-5, bdcollider5.getLocalBounds().height / 2);
-	bdcollider6.setOrigin((bdcollider6.getLocalBounds().width / 2)-5, bdcollider6.getLocalBounds().height / 2);
-	bdcollider7.setOrigin((bdcollider7.getLocalBounds().width / 2)-5, bdcollider7.getLocalBounds().height / 2);
+	bdcollider6.setOrigin((bdcollider6.getLocalBounds().width / 2)+5, bdcollider6.getLocalBounds().height / 2);
+	bdcollider7.setOrigin((bdcollider7.getLocalBounds().width / 2)+5, bdcollider7.getLocalBounds().height / 2);
 	rdcollider1.setOrigin((rdcollider1.getLocalBounds().width / 2)-5, rdcollider1.getLocalBounds().height / 2);
 	rdcollider2.setOrigin((rdcollider2.getLocalBounds().width / 2)+5, rdcollider2.getLocalBounds().height / 2);
 	rdcollider3.setOrigin((rdcollider3.getLocalBounds().width / 2)-5, rdcollider3.getLocalBounds().height / 2);
@@ -444,19 +448,19 @@ void rotationc(RectangleShape raw) {
 
 void setrotatecollider()
 {
-	bdcollider1.setRotation(-45);
+	bdcollider1.setRotation(45);
 	bdcollider2.setRotation(45);
-	bdcollider3.setRotation(-45);
-	bdcollider4.setRotation(-45);
+	bdcollider3.setRotation(45);
+	bdcollider4.setRotation(45);
 	bdcollider5.setRotation(-45);
-	bdcollider6.setRotation(45);
-	bdcollider7.setRotation(45);
-	rdcollider1.setRotation(-45);
-	rdcollider2.setRotation(45);
-	rdcollider3.setRotation(-45);
-	rdcollider4.setRotation(-45);
+	bdcollider6.setRotation(-45);
+	bdcollider7.setRotation(-45);
+	rdcollider1.setRotation(45);
+	rdcollider2.setRotation(-45);
+	rdcollider3.setRotation(45);
+	rdcollider4.setRotation(45);
 	rdcollider5.setRotation(-45);
-	rdcollider6.setRotation(45);
+	rdcollider6.setRotation(-45);
 	rdcollider7.setRotation(45);
 	bscollider1.setRotation(41);
 	bscollider2.setRotation(-50);
