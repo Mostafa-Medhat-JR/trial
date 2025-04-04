@@ -1,15 +1,10 @@
 
 /*
-Question to the board team--->
-I made the positon for each piece but it appears there is two ways
-the first way i used the grid[r][c].getposition()
-the second i used the table.position
-so which way is better ?
-below in the fn setpiecepos i made both of ways but one in comment and the other is normal
-so choose the better one between them
+if this is gone change in github
+
+let see
 
 */
-
 
 
 #include <iostream>
