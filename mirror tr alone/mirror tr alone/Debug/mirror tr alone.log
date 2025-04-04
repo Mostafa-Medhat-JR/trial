@@ -1,34 +1,37 @@
-﻿  mirror tr alone.cpp
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(176,24): warning C4804: '-': unsafe use of type 'bool' in operation
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(273,28): warning C4305: 'argument': truncation from 'double' to 'float'
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(273,22): warning C4305: 'argument': truncation from 'double' to 'float'
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(274,27): warning C4305: 'argument': truncation from 'double' to 'float'
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(274,21): warning C4305: 'argument': truncation from 'double' to 'float'
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(275,22): warning C4305: 'argument': truncation from 'double' to 'float'
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(275,17): warning C4305: 'argument': truncation from 'double' to 'float'
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(297,47): warning C4305: 'argument': truncation from 'int' to 'sf::Uint8'
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(297,47): warning C4309: 'argument': truncation of constant value
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(305,38): warning C4305: 'argument': truncation from 'double' to 'T'
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(305,38): warning C4305:         with
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(305,38): warning C4305:         [
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(305,38): warning C4305:             T=float
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(305,38): warning C4305:         ]
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(305,32): warning C4305: 'argument': truncation from 'double' to 'T'
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(305,32): warning C4305:         with
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(305,32): warning C4305:         [
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(305,32): warning C4305:             T=float
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(305,32): warning C4305:         ]
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(309,46): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(309,46): warning C4244:         with
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(309,46): warning C4244:         [
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(309,46): warning C4244:             T=float
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(309,46): warning C4244:         ]
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(309,28): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(309,28): warning C4244:         with
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(309,28): warning C4244:         [
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(309,28): warning C4244:             T=float
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(309,28): warning C4244:         ]
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(512,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(513,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-O:\vs projects\mirror tr alone\mirror tr alone\mirror tr alone.cpp(516,1): warning C4715: 'getCellIndex': not all control paths return a value
-  mirror tr alone.vcxproj -> O:\vs projects\mirror tr alone\Debug\mirror tr alone.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (mirror tr alone.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  mirror tr alone.cpp
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(190,24): warning C4804: '-': unsafe use of type 'bool' in operation
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(287,28): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(287,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(288,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(288,21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(289,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(289,17): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(311,47): warning C4305: 'argument': truncation from 'int' to 'sf::Uint8'
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(311,47): warning C4309: 'argument': truncation of constant value
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(319,38): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(319,38): warning C4305:         with
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(319,38): warning C4305:         [
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(319,38): warning C4305:             T=float
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(319,38): warning C4305:         ]
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(319,32): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(319,32): warning C4305:         with
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(319,32): warning C4305:         [
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(319,32): warning C4305:             T=float
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(319,32): warning C4305:         ]
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(323,46): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(323,46): warning C4244:         with
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(323,46): warning C4244:         [
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(323,46): warning C4244:             T=float
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(323,46): warning C4244:         ]
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(323,28): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(323,28): warning C4244:         with
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(323,28): warning C4244:         [
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(323,28): warning C4244:             T=float
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(323,28): warning C4244:         ]
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(561,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(562,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  piece.cpp
+  Generating Code...
+C:\Users\Merna\Downloads\trial\trial\mirror tr alone\mirror tr alone\mirror tr alone.cpp(565,1): warning C4715: 'getCellIndex': not all control paths return a value
+  mirror tr alone.vcxproj -> C:\Users\Merna\Downloads\trial\trial\mirror tr alone\Debug\Game Project.exe

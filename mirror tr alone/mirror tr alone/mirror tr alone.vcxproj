@@ -24,6 +24,7 @@
     <ProjectGuid>{9c417e80-86ff-4f26-854c-55af4f98ac18}</ProjectGuid>
     <RootNamespace>mirrortralone</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Game Project</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

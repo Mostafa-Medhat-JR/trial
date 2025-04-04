@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "O:\\vs projects\\mirror tr alone\\",
+  "WorkspaceRootPath": "C:\\Users\\Merna\\Downloads\\trial\\trial\\mirror tr alone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C417E80-86FF-4F26-854C-55AF4F98AC18}|mirror tr alone\\mirror tr alone.vcxproj|O:\\vs projects\\mirror tr alone\\mirror tr alone\\mirror tr alone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9C417E80-86FF-4F26-854C-55AF4F98AC18}|mirror tr alone\\mirror tr alone.vcxproj|C:\\Users\\Merna\\Downloads\\trial\\trial\\mirror tr alone\\mirror tr alone\\mirror tr alone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9C417E80-86FF-4F26-854C-55AF4F98AC18}|mirror tr alone\\mirror tr alone.vcxproj|solutionrelative:mirror tr alone\\mirror tr alone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C417E80-86FF-4F26-854C-55AF4F98AC18}|mirror tr alone\\mirror tr alone.vcxproj|O:\\vs projects\\mirror tr alone\\mirror tr alone\\piece.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9C417E80-86FF-4F26-854C-55AF4F98AC18}|mirror tr alone\\mirror tr alone.vcxproj|C:\\Users\\Merna\\Downloads\\trial\\trial\\mirror tr alone\\mirror tr alone\\piece.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9C417E80-86FF-4F26-854C-55AF4F98AC18}|mirror tr alone\\mirror tr alone.vcxproj|solutionrelative:mirror tr alone\\piece.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C417E80-86FF-4F26-854C-55AF4F98AC18}|mirror tr alone\\mirror tr alone.vcxproj|O:\\vs projects\\mirror tr alone\\mirror tr alone\\piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9C417E80-86FF-4F26-854C-55AF4F98AC18}|mirror tr alone\\mirror tr alone.vcxproj|C:\\Users\\Merna\\Downloads\\trial\\trial\\mirror tr alone\\mirror tr alone\\piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9C417E80-86FF-4F26-854C-55AF4F98AC18}|mirror tr alone\\mirror tr alone.vcxproj|solutionrelative:mirror tr alone\\piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "mirror tr alone.cpp",
-              "DocumentMoniker": "O:\\vs projects\\mirror tr alone\\mirror tr alone\\mirror tr alone.cpp",
+              "DocumentMoniker": "C:\\Users\\Merna\\Downloads\\trial\\trial\\mirror tr alone\\mirror tr alone\\mirror tr alone.cpp",
               "RelativeDocumentMoniker": "mirror tr alone\\mirror tr alone.cpp",
-              "ToolTip": "O:\\vs projects\\mirror tr alone\\mirror tr alone\\mirror tr alone.cpp",
+              "ToolTip": "C:\\Users\\Merna\\Downloads\\trial\\trial\\mirror tr alone\\mirror tr alone\\mirror tr alone.cpp",
               "RelativeToolTip": "mirror tr alone\\mirror tr alone.cpp",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAuwGwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAEEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-17T21:35:57.562Z",
               "EditorCaption": ""
@@ -45,9 +45,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "piece.cpp",
-              "DocumentMoniker": "O:\\vs projects\\mirror tr alone\\mirror tr alone\\piece.cpp",
+              "DocumentMoniker": "C:\\Users\\Merna\\Downloads\\trial\\trial\\mirror tr alone\\mirror tr alone\\piece.cpp",
               "RelativeDocumentMoniker": "mirror tr alone\\piece.cpp",
-              "ToolTip": "O:\\vs projects\\mirror tr alone\\mirror tr alone\\piece.cpp",
+              "ToolTip": "C:\\Users\\Merna\\Downloads\\trial\\trial\\mirror tr alone\\mirror tr alone\\piece.cpp",
               "RelativeToolTip": "mirror tr alone\\piece.cpp",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAABsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -57,9 +57,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "piece.h",
-              "DocumentMoniker": "O:\\vs projects\\mirror tr alone\\mirror tr alone\\piece.h",
+              "DocumentMoniker": "C:\\Users\\Merna\\Downloads\\trial\\trial\\mirror tr alone\\mirror tr alone\\piece.h",
               "RelativeDocumentMoniker": "mirror tr alone\\piece.h",
-              "ToolTip": "O:\\vs projects\\mirror tr alone\\mirror tr alone\\piece.h",
+              "ToolTip": "C:\\Users\\Merna\\Downloads\\trial\\trial\\mirror tr alone\\mirror tr alone\\piece.h",
               "RelativeToolTip": "mirror tr alone\\piece.h",
               "ViewState": "AgIAABUAAAAAAAAAAAAcwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",

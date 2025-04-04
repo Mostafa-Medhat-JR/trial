@@ -1,3 +1,17 @@
+
+/*
+Question to the board team--->
+I made the positon for each piece but it appears there is two ways
+the first way i used the grid[r][c].getposition()
+the second i used the table.position
+so which way is better ?
+below in the fn setpiecepos i made both of ways but one in comment and the other is normal
+so choose the better one between them
+
+*/
+
+
+
 #include <iostream>
 #include<utility>
 #include<string>
@@ -135,7 +149,6 @@ void piecedraw();
 void setpiecepos();
 void colliderdrawer();
 void setorigincollider();
-void rotationc(RectangleShape raw);
 void setrotatecollider();
 void setposcollider();
 void boardDraw();
@@ -351,7 +364,7 @@ void piecedraw() {
 }
 
 void setpiecepos(){
-	
+	/*
 blaser.p.setPosition(grid[7][9].getPosition());
 
 bking.p.setPosition(grid[7][4].getPosition());
@@ -384,6 +397,41 @@ rdeflector4.p.setPosition(grid[3][7].getPosition());
 rdeflector5.p.setPosition(grid[4][7].getPosition());
 rdeflector6.p.setPosition(grid[3][0].getPosition());
 rdeflector7.p.setPosition(grid[5][6].getPosition());
+*/
+
+
+	blaser.p.setPosition(table[7][9].Position);
+
+	bking.p.setPosition(table[7][4].Position);
+	bdefender1.p.setPosition(table[7][3].Position);
+	bdefender2.p.setPosition(table[7][5].Position);
+	bswitch1.p.setPosition(table[4][4].Position);
+	bswitch2.p.setPosition(table[4][5].Position);
+
+	bdeflector1.p.setPosition(table[4][2].Position);
+	bdeflector2.p.setPosition(table[2][3].Position);
+	bdeflector3.p.setPosition(table[7][2].Position);
+	bdeflector4.p.setPosition(table[3][9].Position);
+	bdeflector5.p.setPosition(table[6][7].Position);
+	bdeflector6.p.setPosition(table[4][9].Position);
+	bdeflector7.p.setPosition(table[3][2].Position);
+
+	rlaser.p.setPosition(table[0][0].Position);
+	rking.p.setPosition(table[0][5].Position);
+
+	rdefender1.p.setPosition(table[0][4].Position);
+	rdefender2.p.setPosition(table[0][6].Position);
+
+	rswitch1.p.setPosition(table[3][5].Position);
+	rswitch2.p.setPosition(table[3][4].Position);
+
+	rdeflector1.p.setPosition(table[0][7].Position);
+	rdeflector2.p.setPosition(table[1][2].Position);
+	rdeflector3.p.setPosition(table[4][0].Position);
+	rdeflector4.p.setPosition(table[3][7].Position);
+	rdeflector5.p.setPosition(table[4][7].Position);
+	rdeflector6.p.setPosition(table[3][0].Position);
+	rdeflector7.p.setPosition(table[5][6].Position);
 
 }
 
@@ -440,10 +488,6 @@ void setorigincollider() {
 	rshield1.setOrigin((rshield1.getLocalBounds().width / 2)-25, (rshield1.getLocalBounds().height / 2));
 	rshield2.setOrigin((rshield2.getLocalBounds().width / 2)-25, (rshield2.getLocalBounds().height / 2));
 
-}
-
-void rotationc(RectangleShape raw) {
-	raw.rotate(90);
 }
 
 void setrotatecollider()
